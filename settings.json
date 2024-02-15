@@ -1,183 +1,191 @@
 {
-    "terminal.integrated.fontSize": 14,
-  
-    "workbench.iconTheme": "material-icon-theme",
-    "workbench.startupEditor": "none",
-  
-    "polacode.backgroundColor": "#1bdacd",
-    
-    "editor.tabSize": 2,
-    "editor.fontSize": 16,
-    "editor.lineHeight": 25,
-    "editor.fontFamily": "Fira Code", 
-    "editor.fontLigatures": true,
-    "editor.semanticHighlighting.enabled": false,
-  
-    "explorer.compactFolders": false,
-    "editor.renderLineHighlight": "gutter",
-    "workbench.editor.labelFormat": "short",
-    "extensions.ignoreRecommendations": true,
-  
-    "breadcrumbs.enabled": true,
-    "editor.parameterHints.enabled": false,
-    "explorer.confirmDragAndDrop": false,
-    "explorer.confirmDelete": false,
-    
-    "editor.wordWrap": "on",
-    "editor.rulers": [
-      80,
-      120
-    ],
-    "editor.formatOnSave": false,
-    "[php]": {
-      "editor.formatOnSave": true,
-      "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
-    },
-    "editor.colorDecorators": true,
-    
-    "editor.codeActionsOnSave": {
-    
-      "source.fixAll.eslint": true
-    },
-  
-    "files.exclude": {
-      "**/.git": true,
-      "**/.svn": true,
-      "**/.hg": true,
-      "**/CVS": true,
-      "**/.DS_Store": true,
-      "**/node_modules": true
-    },
-  
-    "[prisma]": {
-      "editor.formatOnSave": true,
-      "editor.defaultFormatter": "Prisma.prisma"
-    },
-  
-    "files.associations": {
-      "css": "css",
-      ".sequelizerc": "javascript",
-      "html": "html",
-      ".stylelintrc": "json",
-      ".prettierrc": "json",
-      "*.tsx": "typescriptreact",
-      ".env.*": "dotenv"
-    },
-  
-    "emmet.syntaxProfiles": { "javascript": "jsx" },
-    "emmet.includeLanguages": {
-      "javascript": "javascriptreact",
-    },
-    "emmet.triggerExpansionOnTab": true,
-  
-    "gitlens.codeLens.recentChange.enabled": false,
-    "gitlens.codeLens.authors.enabled": false,
-    "gitlens.codeLens.enabled": false,
-  
-    "git.enableSmartCommit": true,  
-  
-    "typescript.tsserver.log": "off",
-    "javascript.suggest.autoImports": true,
-    "typescript.suggest.autoImports": true,
-    "material-icon-theme.activeIconPack": "nest",
-  
-    "material-icon-theme.folders.associations": {
-      "infra": "app",
-      "entities": "class",
-      "domain": "class",
-      "schemas": "class",
-      "typeorm": "database",
-      "repositories": "mappings",
-      "http": "container",
-      "migrations": "tools",
-      "modules": "components",
-      "implementations": "core",
-      "dtos": "typescript",
-      "fakes": "mock",
-      "websockets": "pipe",
-      "protos": "pipe",
-      "grpc": "pipe",
-      "providers": "include",
-      "subscribers": "messages",
-      "useCases": "controller",
-      "kafka": "scripts",
-      "mappers": "meta",
-      "_shared": "shared",
-      "eslint-config": "tools",
-      "kube": "kubernetes"
-    },
-  
-    "material-icon-theme.files.associations": {
-      "ormconfig.json": "database",
-      "tsconfig.json": "tune",
-      "*.proto": "3d",
-      "*.webpack.js": "webpack"
-    },
-  
-    "material-icon-theme.languages.associations": {
-      "dotenv": "tune"
-    },
-    "typescript.updateImportsOnFileMove.enabled": "never",
-    "editor.suggestSelection": "first",
-    "liveServer.settings.donotVerifyTags": true,
-    "javascript.updateImportsOnFileMove.enabled": "always",  
-    "terminal.integrated.showExitAlert": false,
-    
-  
-    "security.workspace.trust.untrustedFiles": "newWindow",
-    "terminal.integrated.fontFamily": "monospace",
-    "bracket-pair-colorizer-2.depreciation-notice": false,
-    "yaml.schemas": {
-      "file:///home/develop/.vscode/extensions/atlassian.atlascode-3.0.5/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
-    },
-    "redhat.telemetry.enabled": true,
-    "git.autofetch": true,
-    "git.confirmSync": false,
-    "git.ignoreRebaseWarning": true,
-    "[typescript]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "terminal.integrated.defaultLocation": "editor",
-    "java.saveActions.organizeImports": true,
-    "[javascript]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "terminal.integrated.defaultProfile.windows": "PowerShell",
-    "xml.server.binary.trustedHashes": [
-      "f3b415f7afb34bebe52fd6ec9d08939b528678d37b69e33a0d0ae6fc9fda4e41"
-    ],
-    "[html]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[javascriptreact]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "workbench.editor.enablePreview": false,
-    "[jsonc]": {
-      "editor.defaultFormatter": "vscode.json-language-features"
-    },    
-    "liveServer.settings.donotShowInfoMsg": true,
-    "[typescriptreact]": {
-      "editor.defaultFormatter": "vscode.typescript-language-features"
-    },
-    "editor.defaultFormatter": "formulahendry.code-runner",
-    "prettier.jsxSingleQuote": true,
-    "editor.linkedEditing": true,
-    "editor.bracketPairColorization.enabled": true,
-    "[java]": {
-      "editor.defaultFormatter": "redhat.java"
-    },
-    "symbols.hidesExplorerArrows": false,
-    "workbench.colorTheme": "Dracula Pro (Buffy)",
-    
-    "php.validate.enable": false,
-    "docker-linter.php.enable": false,
-    "docker-linter.php.container": "./php",
-    "docker-linter.php.machine": "",
-    "window.menuBarVisibility": "toggle",
-    "php.validate.executablePath": "",
-    "emmet.preferences": {
-    
-    },
-    
-  }
+  "terminal.integrated.fontSize": 14,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "newUntitledFile",
+  "polacode.backgroundColor": "#1bdacd",
+  "editor.minimap.enabled": false,
+  "editor.tabSize": 2,
+  "editor.fontSize": 14,
+  "editor.lineHeight": 1.8,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.semanticHighlighting.enabled": false,
+  "explorer.compactFolders": false,
+  "editor.renderLineHighlight": "gutter",
+  "workbench.editor.labelFormat": "short",
+  "extensions.ignoreRecommendations": true,
+  "breadcrumbs.enabled": true,
+  "editor.parameterHints.enabled": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "editor.wordWrap": "on",
+  "editor.rulers": [
+    80,
+    120
+  ],
+  "editor.formatOnSave": false,
+  "[php]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "editor.colorDecorators": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "always",
+    "source.fixAll.eslint": "always",
+    "source.addMissingImports": "always",
+    "source.sortMembers": "always",
+    "source.organizeImports": "always"
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/node_modules": true
+  },
+  "[prisma]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "files.associations": {
+    "css": "css",
+    ".sequelizerc": "javascript",
+    "html": "html",
+    ".stylelintrc": "json",
+    ".prettierrc": "json",
+    "*.tsx": "typescriptreact",
+    ".env.*": "dotenv"
+  },
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "gitlens.codeLens.recentChange.enabled": false,
+  "gitlens.codeLens.authors.enabled": false,
+  "gitlens.codeLens.enabled": false,
+  "git.enableSmartCommit": true,
+  "typescript.tsserver.log": "off",
+  "javascript.suggest.autoImports": true,
+  "typescript.suggest.autoImports": true,
+  "material-icon-theme.activeIconPack": "nest",
+  "material-icon-theme.folders.associations": {
+    "infra": "app",
+    "entities": "class",
+    "domain": "class",
+    "schemas": "class",
+    "typeorm": "database",
+    "repositories": "mappings",
+    "http": "container",
+    "migrations": "tools",
+    "modules": "components",
+    "implementations": "core",
+    "dtos": "typescript",
+    "fakes": "mock",
+    "websockets": "pipe",
+    "protos": "pipe",
+    "grpc": "pipe",
+    "providers": "include",
+    "subscribers": "messages",
+    "useCases": "controller",
+    "kafka": "scripts",
+    "mappers": "meta",
+    "_shared": "shared",
+    "eslint-config": "tools",
+    "kube": "kubernetes"
+  },
+  "material-icon-theme.files.associations": {
+    "ormconfig.json": "database",
+    "tsconfig.json": "tune",
+    "*.proto": "3d",
+    "*.webpack.js": "webpack"
+  },
+  "material-icon-theme.languages.associations": {
+    "dotenv": "tune"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "editor.suggestSelection": "first",
+  "liveServer.settings.donotVerifyTags": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "terminal.integrated.showExitAlert": false,
+  "security.workspace.trust.untrustedFiles": "newWindow",
+  "terminal.integrated.fontFamily": "monospace",
+  "yaml.schemas": {
+    "file:///home/glaydson/.vscode/extensions/atlassian.atlascode-3.0.7/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+  },
+  "redhat.telemetry.enabled": true,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.ignoreRebaseWarning": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "terminal.integrated.defaultLocation": "editor",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.editor.enablePreview": false,
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "editor.defaultFormatter": "formulahendry.code-runner",
+  "editor.linkedEditing": true,
+  "editor.bracketPairColorization.enabled": true,
+  "workbench.colorTheme": "Dracula Pro (Buffy)",
+  "php.validate.enable": false,
+  "php.executablePath": "/usr/local/bin/php",
+  "window.menuBarVisibility": "toggle",
+  "emmet.preferences": {},
+  "cSpell.language": "en,pt,pt_BR",
+  "rsp-ui.enableStartServerOnActivation": [
+    {
+      "id": "redhat.vscode-community-server-connector",
+      "name": "Community Server Connector",
+      "startOnActivation": true
+    }
+  ],
+  "npm.keybindingsChangedWarningShown": true,
+  "cSpell.userWords": [
+    "atlascode",
+    "atlassian",
+    "autofetch",
+    "bitbucket",
+    "bmewburn",
+    "cnpj",
+    "donot",
+    "dtos",
+    "esbenp",
+    "formulahendry",
+    "glaydson",
+    "intelephense",
+    "kube",
+    "kubernetes",
+    "ormconfig",
+    "polacode",
+    "redhat",
+    "sequelizerc",
+    "stylelintrc",
+    "Swiper",
+    "typeorm",
+    "websockets"
+  ],
+  "settingsSync.ignoredExtensions": [],
+  "diffEditor.maxComputationTime": 0,
+  "security.promptForLocalFileProtocolHandling": false,
+  "terminal.integrated.env.linux": {},
+  "console-ninja.featureSet": "Community",
+}
